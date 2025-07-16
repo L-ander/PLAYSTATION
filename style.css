@@ -1,0 +1,74 @@
+body {
+    background-image: url(background.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cont {
+    color: white ;
+    background-color: black ;
+    padding: 20px ;
+    text-align: center;
+
+}
+
+.cont a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+
+.fondo {
+    background-color: rgba(0, 0, 0, 0.74);
+    padding: 20px;
+    margin: 30px;
+    color: white;
+    font-size: 25px;
+}
+
+.imagencentro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    display: flex;
+    width: 1300px;
+    height: 730px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5 ease;
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 420px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.bajo {
+    color: white ;
+    background-color: black ;
+    padding: 40px ;
+    text-align: center;
+}
+
+.bajo a {
+    color: white;
+    text-decoration: none;
+    
+    
+}
